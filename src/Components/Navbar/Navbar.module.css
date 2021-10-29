@@ -1,0 +1,46 @@
+.Container {
+  display: flex;
+  background-color: aqua;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.NavigationMenu {
+  display: flex;
+  margin-right: 50px;
+  list-style-type: none;
+}
+
+.NavigationItem {
+  margin-left: 10px;
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.fa-react {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.navigation_link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navigation_link:hover {
+  color: #6d76f7;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+  color: #fff;
+}
